@@ -21,7 +21,7 @@ body {
 
 @font-face {
     font-family: Android;
-    src: url("./fontes/idroid.otf") format("opentype");
+    src: url("../fontes/idroid.otf") format("opentype");
 }
 
 header > h1{
@@ -62,10 +62,7 @@ header {
     height: 200px;
     background-color: var(--cor3);
     text-align: center;
-    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3), var(--cor4));
-    
-    
-    
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3), var(--cor4)); 
 }
 
 header > p {
