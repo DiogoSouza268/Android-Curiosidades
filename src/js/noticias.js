@@ -2,7 +2,7 @@ import { GoogleGenerativeAI } from "https://esm.run/@google/generative-ai";
 
 // 1. Configurações Iniciais
 // RECOMENDAÇÃO: Gere uma nova chave no AI Studio e substitua aqui por segurança.
-const API_KEY = "AIzaSyA6Rhsoe4S2ioHoUuCzFgcS-D1poqi9BY0"; 
+const API_KEY = "AIzaSyDVdZJaRbEX4JNIFY-vpctFKCrCso37YRg"; 
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 async function carregarNoticias() {
