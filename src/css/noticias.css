@@ -86,7 +86,6 @@ body {
 main {
     margin: auto;
     background-color: white;
-    min-width: 400px;
     max-width: 850px;
     border-end-start-radius: 15px;
     border-end-end-radius: 15px;
@@ -101,6 +100,7 @@ h2 {
     padding-left: 25px;
     padding-right: 25px;
     text-align: justify;
+
 }
 
 p {
@@ -109,8 +109,15 @@ p {
     padding-left: 25px;
     text-align: justify;
     text-indent: 30px;
+
 }
 
+@media (max-width: 250px) {
+    h2 , p {
+        word-wrap: break-word;
+        font-size: auto;
+    }
+}
 footer {
     background-color: var(--cor5);
     color: white;
@@ -124,4 +131,11 @@ footer {
 footer > p {
     font-family: var(--fonte0);
     text-align: center;
+}
+
+@media (max-width: 230px) {
+    * {
+        font-size: 90%;
+    }
+    
 }

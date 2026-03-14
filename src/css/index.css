@@ -14,6 +14,12 @@
     margin: 0;
 }
 
+@media (max-width: 230px) {
+    * {
+        font-size: 90%;
+    }
+    
+}
 body {
     background-color: var(--cor1);
     font-family: var(--fonte0);
@@ -41,7 +47,8 @@ section > h2 , h1{
     color: var(--cor3);
     padding-top: 30px;
     padding-left: 30px;
-    
+    padding-right: 30px;
+    word-wrap: break-word;
 
 }
 
@@ -73,7 +80,6 @@ header > p {
 
 header > nav {
     padding-top: 40px;
-    align-items: end;
     text-align: start;
     padding-bottom: 5px;
 }
@@ -107,7 +113,6 @@ header > nav > a:hover {
 main {
     margin: auto;
     background-color: white;
-    min-width: 400px;
     max-width: 850px;
     border-end-start-radius: 15px;
     border-end-end-radius: 15px;
@@ -121,7 +126,6 @@ main {
 }
 
 #bugdroid{
-    padding-left: 30px;
     margin: auto;
     padding-top: 20px;
     display: block;
@@ -140,7 +144,7 @@ picture > img , picture > source {
 }
 
 @media (max-width: 840px) {
-    picture > img , picture > source {
+    picture > img , picture > source, #bugdroid{
     width: 70%;
     height: auto;
     display: flex;
@@ -206,7 +210,18 @@ aside > ul {
     padding-top: 25px;
     padding-bottom: 10px;
     text-decoration: none;
+}
+
+
+@media (max-width: 414px) {
+    aside > ul {
+        columns: 1;
+    }
     
+}
+aside > ul > li {
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
 
 main > p {

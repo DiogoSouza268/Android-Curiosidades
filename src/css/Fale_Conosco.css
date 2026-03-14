@@ -74,7 +74,6 @@ body {
 main {
     margin: auto;
     background-color: white;
-    min-width: 400px;
     max-width: 850px;
     border-end-start-radius: 15px;
     border-end-end-radius: 15px;
@@ -136,4 +135,11 @@ section > h2 > a {
     color: var(--cor5);
     font-weight: bolder;
     text-decoration: none;
+}
+
+@media (max-width: 230px) {
+    * {
+        font-size: 90%;
+    }
+    
 }
