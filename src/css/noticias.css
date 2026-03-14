@@ -90,6 +90,7 @@ main {
     border-end-start-radius: 15px;
     border-end-end-radius: 15px;
     padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -118,20 +119,7 @@ p {
         font-size: auto;
     }
 }
-footer {
-    background-color: var(--cor5);
-    color: white;
-    font-weight: bolder;
-    margin-top: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466); 
-}
 
-footer > p {
-    font-family: var(--fonte0);
-    text-align: center;
-}
 
 @media (max-width: 230px) {
     * {
