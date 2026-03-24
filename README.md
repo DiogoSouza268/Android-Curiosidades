@@ -29,6 +29,8 @@ Este projeto é um site estático sobre curiosidades de tecnologia, com páginas
 
 - O site usa links relativos para navegação entre as páginas.
 - O arquivo `index.html` é a porta de entrada e referencia os estilos em `src/css/`.
+  
+**- Para rodar as noticias da pagina de niticas adicione sua própria API_KEY do Google Gemini em `config.js`.
 
 - Os scripts em `src/js/` são usados para funcionalidades específicas, como a geração de notícias usando uma API do googe gemini.
 - As imagens e fontes estão organizadas em suas respectivas pastas para fácil acesso e manutenção.
